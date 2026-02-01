@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;
+    background: linear-gradient(135deg, #000000, #0f0f0f, #1a1a1a);
+  }
+}
+
+@layer utilities {
+  .card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-extrabold text-white text-center;
+  }
+  
+  .sub-text {
+    @apply text-gray-400 text-lg leading-relaxed;
+  }
+}
