@@ -28,10 +28,7 @@ export default function Home() {
           <VisionCard />
         </div>
         <div className="pt-12">
-          <div className="flex items-center gap-4 mb-10">
-            <div className="w-12 h-0.5 bg-white/30" />
-            <span className="text-gray-400 font-mono text-sm tracking-widest uppercase">Portfolio</span>
-          </div>
+          
           <PortfolioSection />
         </div>
 
