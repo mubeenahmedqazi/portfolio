@@ -29,7 +29,7 @@ const projects = [
     desc: "Full-stack e-commerce solution with shopping cart, payments, and admin panel.",
     tech: ["Next.js", "Node.js", "MongoDB", "Stripe"],
     image: "/rimshalabadmin.png",
-    link: "https://rimsha-lab-admin.vercel.app/",
+    link: "https://rimsha-lab-admin.vercel.app/login",
   },
   {
     title: "Prescripto Admin",
