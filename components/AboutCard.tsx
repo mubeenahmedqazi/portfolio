@@ -16,15 +16,18 @@ export default function AboutCard() {
         
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-          About<span className="text-gray-400">_</span>Me
+          About<span className="text-gray-400"> </span>Me
         </h2>
 
         {/* Content */}
         <div className="space-y-6">
           <p className="text-gray-300 leading-relaxed">
-            I am a passionate Full-Stack Web Developer specializing in Next.js and React.js. 
-            I build modern, scalable web applications with clean architecture and optimal performance. 
-            My expertise spans from frontend interfaces to backend systems and database design.
+            I am a student at COMSATS University, 
+            currently pursuing a Software Engineering degree. 
+            I specialize in Full-Stack Web Developer and am a passionate  Mobile App Development with strong 
+            expertise in Next.js and React.js. I build modern, scalable web applications with clean architecture 
+            and optimal performance. My skills cover the complete development cycle from intuitive frontend 
+            interfaces to robust backend systems and efficient database design.
           </p>
           
           {/* Key Points */}
