@@ -95,7 +95,7 @@ export default function ProfileHeader() {
             <div className="space-y-4 mb-8">
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <ContactInfo />
-                <span className="text-gray-300">ahmedqazimubeen@email.com</span>
+                <span className="text-gray-300">ahmedqazimubeen@gmail.com</span>
               </div>
               
               <div className="flex items-center justify-center md:justify-start gap-3">
