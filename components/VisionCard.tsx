@@ -62,7 +62,6 @@ export default function VisionCard() {
           <div className="flex flex-wrap gap-2">
             <span className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full border border-gray-700">Full-Stack Development</span>
             <span className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full border border-gray-700">AI Integration</span>
-            <span className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full border border-gray-700">Digital Strategy</span>
           </div>
         </div>
 
