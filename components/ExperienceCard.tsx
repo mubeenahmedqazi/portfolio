@@ -27,15 +27,13 @@ const ExperienceData = [
     type: "Part-time",
     location: "Lahore, Pakistan",
     logo: "/logos/rimsha-lab-logo.png",
-    description: "Managed IT infrastructure and digital marketing initiatives.",
+    description: "Managed IT infrastructure support.",
     responsibilities: [
       "Maintained and troubleshooted lab IT systems and networks",
-      "Managed Facebook & Instagram marketing campaigns",
-      "Created digital content and social media strategies",
       "Provided technical support to staff and clients",
       "Implemented basic automation scripts for lab processes"
     ],
-    technologies: ["Social Media Marketing", "IT Support", "Content Creation", "Networking"]
+    technologies: [ "IT Support" ,"Technical Support"]
   },
   {
     role: "ML & Backend Projects",

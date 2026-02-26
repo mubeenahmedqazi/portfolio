@@ -13,7 +13,7 @@ const educationData = [
     logo: "/comsats-logo.png",
     logoInitial: "CU",
     highlights: [
-      "Focus: Software Engineering & Digital Marketing",
+      "Focus: Software Engineering & Web/App Development & AI/ML ",
       "Active in Programming & Development Clubs",
       "Coursework: Data Structures, Algorithms, Web Development",
       "Database Systems, Software Engineering"
