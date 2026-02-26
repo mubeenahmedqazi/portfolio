@@ -112,7 +112,7 @@ export default function ProfileHeader() {
             {/* Links & Buttons */}
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <a
-                href="/resume.pdf"
+                href="/Mubeen_Ahmed_1Page.pdf"
                 download
                 className="px-6 py-3 bg-gradient-to-r from-gray-800 to-black text-white rounded-lg border border-gray-700 hover:border-white/30 transition-all duration-300 hover:scale-105"
               >

@@ -36,7 +36,7 @@ const skillCategories = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Docker", "CI/CD"]
+    skills: ["Git", "GitHub", "VS Code"]
   }
 ];
 
