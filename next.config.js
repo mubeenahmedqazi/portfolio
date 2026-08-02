@@ -7,9 +7,9 @@ const nextConfig = {
   // Use this instead for App Router
   output: 'standalone', // ← Good for Vercel
   
-  // Images config
+  // Images config — Vercel optimizes on-the-fly, no need to disable it
   images: {
-    unoptimized: true, // Vercel will handle optimization
+    unoptimized: false,
   },
   
   // Ensure proper trailing slash handling
