@@ -58,7 +58,7 @@ export default function MagneticButton({
     "relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300 select-none";
   const styles =
     variant === "primary"
-      ? "text-white bg-gradient-to-r from-brand-primary to-brand-accent shadow-lg shadow-brand-primary/20 hover:shadow-2xl hover:shadow-brand-accent/25"
+      ? "text-slate-900 bg-gradient-to-r from-brand-primary to-brand-accent shadow-lg shadow-brand-primary/20 hover:shadow-2xl hover:shadow-brand-accent/25"
       : "text-white border border-white/20 bg-white/5 hover:border-brand-primary/50 hover:bg-white/10";
 
   const content = (

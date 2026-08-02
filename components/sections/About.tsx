@@ -8,7 +8,7 @@ import AnimatedCounter from "@/components/ui/AnimatedCounter";
 import Vision from "./Vision";
 import { aboutKeyPoints, aboutText, coreTech, currentFocus, stats } from "@/lib/data";
 
-const dotColors = ["#6e5af0", "#2dd4bf", "#6e5af0", "#2dd4bf"];
+const dotColors = ["#22d3ee", "#ffffff", "#22d3ee", "#ffffff"];
 
 export default function About() {
   return (

@@ -61,7 +61,7 @@ export default function GlassCard({
       }
       className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.015] backdrop-blur-xl transition-colors duration-300 hover:border-white/20 ${
         gradientBorder ? "gradient-border" : ""
-      } ${glow ? "hover:shadow-[0_0_40px_-10px_rgba(110,90,240,0.35)]" : ""} ${className}`}
+      } ${glow ? "hover:shadow-[0_0_40px_-10px_rgba(34,211,238,0.35)]" : ""} ${className}`}
     >
       {spotlight && (
         <div
@@ -69,7 +69,7 @@ export default function GlassCard({
           className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-300"
           style={{
             opacity: spot.active ? 1 : 0,
-            background: `radial-gradient(500px circle at ${spot.x}% ${spot.y}%, rgba(110,90,240,0.12), transparent 60%)`,
+            background: `radial-gradient(500px circle at ${spot.x}% ${spot.y}%, rgba(34,211,238,0.12), transparent 60%)`,
           }}
         />
       )}

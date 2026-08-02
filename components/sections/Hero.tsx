@@ -75,7 +75,7 @@ export default function Hero() {
       >
         <div className="absolute inset-0 animate-aurora rounded-full bg-gradient-to-br from-brand-primary/30 to-brand-accent/30 blur-2xl" />
         <div className="relative h-full w-full rounded-full bg-gradient-to-br from-brand-primary to-brand-accent p-0.75">
-          <div className="relative h-full w-full overflow-hidden rounded-full border-4 border-[#05070d] bg-[#05070d]">
+          <div className="relative h-full w-full overflow-hidden rounded-full border-4 border-[#0d1117] bg-[#0d1117]">
             <Image src="/profile.jpg" alt="Mubeen Ahmed" fill priority className="object-cover" sizes="224px" />
           </div>
         </div>

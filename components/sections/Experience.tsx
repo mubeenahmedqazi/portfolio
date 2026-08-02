@@ -63,7 +63,7 @@ export default function Experience() {
               transition={{ duration: 0.6 }}
               className={`relative flex items-start gap-6 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
             >
-              <span className="absolute left-6 top-1.5 z-10 h-3.5 w-3.5 -translate-x-1/2 rounded-full border-2 border-[#05070d] bg-brand-primary shadow-[0_0_12px_2px_rgba(110,90,240,0.6)] md:left-1/2" />
+              <span className="absolute left-6 top-1.5 z-10 h-3.5 w-3.5 -translate-x-1/2 rounded-full border-2 border-[#0d1117] bg-brand-primary shadow-[0_0_12px_2px_rgba(34,211,238,0.6)] md:left-1/2" />
 
               <div className={`w-full pl-14 md:w-1/2 md:pl-0 ${index % 2 === 0 ? "md:pr-12" : "md:pl-12"}`}>
                 <GlassCard tilt glow className="p-6">

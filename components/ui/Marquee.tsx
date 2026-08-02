@@ -13,8 +13,8 @@ export default function Marquee({ items, className = "" }: MarqueeProps) {
 
   return (
     <div className={`relative overflow-hidden ${className}`} aria-hidden="true">
-      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#05070d] to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#05070d] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#0d1117] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#0d1117] to-transparent" />
       <div className={`flex w-max gap-4 ${prefersReducedMotion ? "" : "animate-marquee"}`}>
         {loop.map((item, i) => (
           <span

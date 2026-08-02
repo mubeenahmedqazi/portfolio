@@ -38,7 +38,7 @@ export default function CursorSpotlight() {
         marginLeft: -210,
         marginTop: -210,
         background:
-          "radial-gradient(circle, rgba(110,90,240,0.12) 0%, rgba(45,212,191,0.08) 35%, transparent 70%)",
+          "radial-gradient(circle, rgba(34,211,238,0.12) 0%, rgba(255,255,255,0.08) 35%, transparent 70%)",
       }}
     />
   );
