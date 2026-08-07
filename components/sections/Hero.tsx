@@ -55,7 +55,7 @@ export default function Hero() {
       </div>
 
       <p className="mt-6 max-w-xl text-gray-400">
-        Building scalable web platforms and intelligent AI systems from Lahore, Pakistan.
+        I build scalable web platforms and intelligent AI systems — currently based in Lahore, Pakistan.
       </p>
 
       {/* Profile Image */}

@@ -27,7 +27,7 @@ export default function Expertise() {
             Skills &amp; <span className="text-gray-400">Expertise</span>
           </>
         }
-        subtitle="Full-stack development, AI/ML, and comprehensive technical capabilities"
+        subtitle="The stack behind everything I build — from polished frontends to the AI systems running underneath"
       />
 
       <Marquee items={marqueeTech} className="mb-12" />

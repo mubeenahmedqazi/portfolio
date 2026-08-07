@@ -110,7 +110,7 @@ export default function Contact() {
       <SectionHeading
         kicker="Let's Talk"
         title="Get In Touch"
-        subtitle="Have a project in mind? Send a message and let's build something great."
+        subtitle="Open to new roles, freelance work, or just a good conversation about AI — drop me a message"
       />
 
       <div className="grid gap-8 md:grid-cols-2">

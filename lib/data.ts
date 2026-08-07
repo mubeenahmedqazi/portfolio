@@ -273,13 +273,49 @@ export const experienceData: ExperienceEntry[] = [
 export interface Certificate {
   title: string;
   issuer: string;
-  year: string;
+  date: string;
+  courses?: string[];
+  signatory?: string;
+  verifyUrl: string;
+  image: string;
 }
 
 export const certificates: Certificate[] = [
-  { title: "Certificate Title", issuer: "Issuing Organization", year: "2025" },
-  { title: "Certificate Title", issuer: "Issuing Organization", year: "2024" },
-  { title: "Certificate Title", issuer: "Issuing Organization", year: "2024" },
+  {
+    title: "Advanced Computer Vision with TensorFlow",
+    issuer: "DeepLearning.AI · Coursera",
+    date: "August 2026",
+    signatory: "Laurence Moroney, Lead AI Advocate, Google",
+    verifyUrl: "https://coursera.org/verify/BD8UQWVTZNFU",
+    image: "/computervision-1.png",
+  },
+  {
+    title: "Deep Learning Specialization",
+    issuer: "DeepLearning.AI · Coursera",
+    date: "July 2026",
+    courses: [
+      "Neural Networks and Deep Learning",
+      "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+      "Structuring Machine Learning Projects",
+      "Convolutional Neural Networks",
+      "Sequence Models",
+    ],
+    signatory: "Andrew Ng, Founder, DeepLearning.AI",
+    verifyUrl: "https://coursera.org/verify/specialization/7FLGRJ25HLJZ",
+    image: "/deeplearning-1.png",
+  },
+  {
+    title: "AI & LLM Engineering Mastery — GenAI, RAG Complete Guide",
+    issuer: "Packt · Coursera",
+    date: "July 2026",
+    courses: [
+      "Foundations of AI, LLMs, and Development Environments",
+      "Advanced Prompt Engineering and Memory Management",
+      "Building and Fine-Tuning LLM Applications",
+    ],
+    verifyUrl: "https://coursera.org/verify/specialization/Y89C7GZ68BPW",
+    image: "/aillm-1.png",
+  },
 ];
 
 export const heroRoles = [

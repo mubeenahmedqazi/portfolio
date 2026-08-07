@@ -43,7 +43,7 @@ export default function Experience() {
       <SectionHeading
         kicker="Career Path"
         title="Experience"
-        subtitle="Industrial training, professional roles, and self-directed projects"
+        subtitle="Where I've worked, what I've shipped, and what I build when no one's asking me to"
       />
 
       <div className="relative">

@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     images: ["/profile.jpg"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/vercel.png",
   },
 };
 

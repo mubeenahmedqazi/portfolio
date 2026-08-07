@@ -69,7 +69,7 @@ export default function Projects() {
             My <span className="text-gray-400">Projects</span>
           </>
         }
-        subtitle="Live demos available — click any card to explore"
+        subtitle="Real products people actually use — not mockups. Click through and try them yourself"
       />
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
